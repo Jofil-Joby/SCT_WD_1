@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CodeCraft — Learn Programming Faster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#" class="logo">&lt;/&gt; Code<span>Craft</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-outline">Log In</a>
+      <a href="#features" class="btn btn-primary">Get Started</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="overlay" id="overlay"></div>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home">Home</a>
+  <a href="#features">Features</a>
+  <a href="#about">About</a>
+  <a href="#testimonials">Reviews</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-glow"></div>
+  <div class="hero-glow-2"></div>
+  <div class="container hero-grid">
+    <div data-aos="fade-right" data-aos-duration="800">
+      <h1>Learn Programming <span class="highlight">The Smarter Way</span></h1>
+      <p>Master HTML, CSS, JavaScript and build real-world projects — with interactive lessons that fit around your life, not a boring textbook.</p>
+      <div class="hero-btns">
+        <a href="#features" class="btn btn-primary">Start Learning</a>
+        <a href="#about" class="btn btn-outline">Explore Courses</a>
+      </div>
+    </div>
+    <div data-aos="fade-left" data-aos-duration="800">
+      <div class="code-window">
+        <div class="code-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        </div>
+        <div class="code-body">
+          <div><span class="c1">// your first project</span></div>
+          <div><span class="c2">function</span> <span class="c3">buildSkills</span>() {</div>
+          <div>&nbsp;&nbsp;<span class="c2">const</span> <span class="c4">you</span> = <span class="c5">"beginner"</span>;</div>
+          <div>&nbsp;&nbsp;<span class="c2">while</span> (you !== <span class="c5">"developer"</span>) {</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;you.<span class="c3">practice</span>();</div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;you.<span class="c3">ship</span>();</div>
+          <div>&nbsp;&nbsp;}</div>
+          <div>&nbsp;&nbsp;<span class="c2">return</span> <span class="c5">"hired"</span>;</div>
+          <div>}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FEATURES ===== -->
+<section id="features">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">Why CodeCraft</span>
+    <h2 class="section-title" data-aos="fade-up">Everything you need to go from zero to hired</h2>
+    <p class="section-sub" data-aos="fade-up">A learning path built around doing, not just watching.</p>
+    <div class="features-grid">
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="feature-icon">📚</div>
+        <h3>Interactive Courses</h3>
+        <p>Bite-sized lessons with live code editors — write real code from your very first module.</p>
+      </div>
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="150">
+        <div class="feature-icon">🎯</div>
+        <h3>Project Based Learning</h3>
+        <p>Every course ends in a shippable project you can add straight to your portfolio.</p>
+      </div>
+      <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="feature-icon">🚀</div>
+        <h3>Career Support</h3>
+        <p>Resume reviews, mock interviews and a job board built for early-career developers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+  <div class="container about-grid">
+    <div class="about-visual" data-aos="fade-right">
+      <div style="font-size:64px;">🧑‍💻</div>
+      <div class="stat-badge">
+        <strong>4.9/5</strong>
+        <span>Average student rating</span>
+      </div>
+    </div>
+    <div class="about-text" data-aos="fade-left">
+      <span class="eyebrow">Who We Are</span>
+      <h2 class="section-title">We help students become industry-ready developers</h2>
+      <p>CodeCraft was built by engineers who were tired of tutorials that teach syntax but never build confidence. We focus on the skills that actually show up in interviews and on the job.</p>
+      <ul class="about-list">
+        <li><b>→</b> Curriculum designed with hiring managers</li>
+        <li><b>→</b> Small cohorts with real mentorship</li>
+        <li><b>→</b> Lifetime access to every course update</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary">Read More</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats-section">
+  <div class="container">
+    <div class="stats-grid">
+      <div data-aos="fade-up">
+        <div class="stat-number" data-target="5000">0</div>
+        <div class="stat-label">Students Taught</div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="150">
+        <div class="stat-number" data-target="120">0</div>
+        <div class="stat-label">Projects Built</div>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-number" data-target="98" data-suffix="%">0</div>
+        <div class="stat-label">Success Rate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section id="testimonials">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">Testimonials</span>
+    <h2 class="section-title" data-aos="fade-up">Loved by students who got hired</h2>
+    <div class="testi-grid">
+      <div class="testi-card" data-aos="fade-up">
+        <div class="stars">★★★★★</div>
+        <p>"The platform completely changed how I learn. Projects made everything click."</p>
+        <div class="testi-author">
+          <div class="avatar">A</div>
+          <div><strong>Alex Rivera</strong><span>Frontend Developer</span></div>
+        </div>
+      </div>
+      <div class="testi-card" data-aos="fade-up" data-aos-delay="150">
+        <div class="stars">★★★★★</div>
+        <p>"I went from zero coding experience to my first internship in six months."</p>
+        <div class="testi-author">
+          <div class="avatar">P</div>
+          <div><strong>Priya Nair</strong><span>CS Student</span></div>
+        </div>
+      </div>
+      <div class="testi-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="stars">★★★★★</div>
+        <p>"The mentorship and career support made all the difference in my job search."</p>
+        <div class="testi-author">
+          <div class="avatar">J</div>
+          <div><strong>Jordan Lee</strong><span>Backend Engineer</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info" data-aos="fade-right">
+      <span class="eyebrow">Contact</span>
+      <h2 class="section-title">Have questions? Let's talk.</h2>
+      <p>Whether you're picking your first course or need help with a project, our team usually replies within a day.</p>
+      <div class="info-row">✉️ hello@codecraft.dev</div>
+      <div class="info-row">📍 Remote-first, worldwide</div>
+    </div>
+    <form id="contactForm" data-aos="fade-left" novalidate>
+      <div class="form-group" id="nameGroup">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name">
+        <div class="error-msg">Please enter your name</div>
+      </div>
+      <div class="form-group" id="emailGroup">
+        <label for="email">Email</label>
+        <input type="text" id="email" placeholder="you@example.com">
+        <div class="error-msg">Please enter a valid email</div>
+      </div>
+      <div class="form-group" id="messageGroup">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Tell us what you're looking for..."></textarea>
+        <div class="error-msg">Please enter a message</div>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <div class="form-status" id="formStatus">✓ Message sent! We'll get back to you soon.</div>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo">&lt;/&gt; Code<span>Craft</span></a>
+        <p>Learn programming faster with interactive, project-based courses built for real careers.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <a href="#testimonials">Reviews</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">Careers</a>
+          <a href="#">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 CodeCraft. All rights reserved.</span>
+      <div class="socials">
+        <a href="#" aria-label="GitHub">GH</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+        <a href="#" aria-label="Instagram">IG</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
