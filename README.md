@@ -100,7 +100,7 @@ http://localhost:8000
 
 ## 🌐 Live Demo
 
-**Demo:** https://your-username.github.io/codecraft-landing/
+**Demo:** https://jofil-joby.github.io/SCT_WD_1/
 
 ---
 
